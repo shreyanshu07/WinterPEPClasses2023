@@ -29,7 +29,7 @@ bool myCmp(int a,int b){//sort the array based on odd and even (first even eleme
 }
 
 bool myCmp(int a,int b){ //First sort the array based on odd and even and then the even should appear increasing and odd should appear should appear decreasing
-    if(a%2==0 and b%2!=0) return true'
+    if(a%2==0 and b%2!=0) return true;
     else if(a%2!=0 and b%2==0) return false;
     else if(a%2==0 and b%2==0) return a<b;
     else a>b;
